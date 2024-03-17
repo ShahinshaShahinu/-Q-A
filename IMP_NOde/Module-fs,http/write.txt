@@ -1,0 +1,1 @@
+fs write file ,e it will replace all file content 
