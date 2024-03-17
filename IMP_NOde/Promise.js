@@ -1,5 +1,4 @@
 let k = 0;
-
 const myPromise = new Promise((resolve, reject) => {
   if (k !== 0) {
     resolve("Promise fulfilled with result");
