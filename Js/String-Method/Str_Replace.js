@@ -9,3 +9,9 @@ let newText = text.replace("Microsoft", "W3Schools");
 console.log(text);
 console.log(newText);
 
+// let text2 = "I love cats. Cats are very easy to love. Cats are very popular.";
+// let newStr = text2.replaceAll("cats", "Dog");
+
+// console.log(newStr);
+// console.log(text2);
+
