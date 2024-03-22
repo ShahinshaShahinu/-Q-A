@@ -1,4 +1,4 @@
-// // function Borrowing
+// // function Borrowing === thease are object methods ,'this' refers to the object 
 //  bind() --method  argument through pass the obect , return a new function ,
 // It will executes when the that  function is called
 

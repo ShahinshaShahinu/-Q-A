@@ -1,5 +1,6 @@
 // The forEach method in JavaScript iterates over each element in an array,
-//  executing a callback function for each element ,it does not create a new array 
+//  executing a callback function for each element ,
+// it does not create a new array /not return new array,it does not change / modify the original array. 
 // map & foreach higher-order functions 
 
 let array = [1, 2, 3, 4, 5];
@@ -8,6 +9,7 @@ let array = [1, 2, 3, 4, 5];
 array.forEach((element) => {
   console.log(element);
 });
+console.log(array);
 
 array.forEach(function (number) {
   console.log(number);

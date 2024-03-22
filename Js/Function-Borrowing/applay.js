@@ -1,4 +1,4 @@
-// // function Borrowing
+// // function Borrowing === thease are object methods ,'this' refers to the object 
 //  applay() --  apply works similarly to call, but it accepts an array of arguments. 
 // also argument through pass the obect
 

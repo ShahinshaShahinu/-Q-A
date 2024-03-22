@@ -1,5 +1,5 @@
-//  Promise.race() takes an array of promises and returns a new promise that settles 
-//   as soon as the first promise in the array settles (either resolves or rejects).
+//  Promise.race() takes an array of promises and returns a new promise that resolves or rejects  
+//   as soon as the first promise in the array resolves or rejects  (either resolves or rejects).
 
 
 const promise1 = new Promise((resolve, reject) => {

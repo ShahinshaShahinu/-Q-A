@@ -2,9 +2,10 @@
 //   resolves with the first resolved promise's value. If all promises reject, 
 //   it will rejects with an array of rejection reasons.
 
+
 const promise1 = new Promise((resolve, reject) => {
   setTimeout(() => {
-    reject("Promise 1 rejected");
+    resolve("Promise 1 rejected");
   }, 2000);
 });
 

@@ -1,6 +1,10 @@
 // The filter() method-
-//  creates a new array with all elements that pass a given condition 
+//  creates a new array with all elements that pass a specific/given condition 
 //example :- elements with a value larger than 18:
+
+
+// oru specific aaya condition pass cheyyunna ella elementsumayi oru puthiya array create cheyyunnu
+
 
 // it is a higher-order function , it takes a callback function 
 

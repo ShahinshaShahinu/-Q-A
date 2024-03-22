@@ -1,4 +1,4 @@
-// // function Borrowing
+// // function Borrowing === thease are object methods ,'this' refers to the object 
 // // call() -- method  argument through pass the obect
 // We can retrieve the object using the "this" keyword
 
