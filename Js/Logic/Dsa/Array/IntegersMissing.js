@@ -1,12 +1,14 @@
-const ar =[1,2,3,6,7,10,12,13];
+// missing numbers in an array of integers  
 
+const ar = [2, 4, 6, 10, 12, 14];
+
+//          0,1,2,3
 for (let i = 0; i < ar.length; i++) {
-    if(ar[i]+1==ar[i+1] && i<ar.length-1){
-        continue; 
-    }else{
-        if(i+1!==ar.length){
-            console.log(i+1)
-        }
+  if (ar[i] + 1 != ar[i + 1] && i < ar.length - 1) {
+    let it = ar[i];
+    while (ar[i + 1] != it + 1) {
+      console.log(it + 1);
+      it++;
     }
-    
+  }
 }
