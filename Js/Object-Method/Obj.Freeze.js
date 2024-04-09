@@ -8,3 +8,4 @@ const obj = { name: "John" };
 
 obj.name='shahinhsa',obj.age=34 ;delete obj.name;
 console.log(obj);
+console.log(Object.isFrozen(obj))   // it will check is forzen or not 

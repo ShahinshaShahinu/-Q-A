@@ -1,4 +1,4 @@
-// Types of conversion - int, parse  implicit converstion its automatic conversion  and explisit conversion its manual
+// Types of conversion/casting/Coercion - int, parse  implicit converstion its automatic conversion  and explisit conversion its manual
 // type of conversion string conversiion boolean and number conversion  toString() toNumber() parshing intigerparshing
 // parshInt converting string to parshInt  parshFloat    converting to floating point
 

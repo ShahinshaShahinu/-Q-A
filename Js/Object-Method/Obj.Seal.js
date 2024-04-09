@@ -11,4 +11,4 @@ obj.name='shahinsha' ;
 obj.age=34 
 delete  obj.name 
 
-console.log(obj)
+console.log(obj);
