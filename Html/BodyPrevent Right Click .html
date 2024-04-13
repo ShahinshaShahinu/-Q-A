@@ -9,14 +9,18 @@
 
 <script>
 // Prevent right-click event on the body
-document.body.addEventListener("contextmenu", function(event) {
-  event.preventDefault(); // Prevent the default right-click behavior
-});
+// document.body.addEventListener("contextmenu", function(event) {
+//   event.preventDefault(); // Prevent the default right-click behavior
+// });
 
-// Prevent right-click event on the entire document
-document.addEventListener("contextmenu", function(event) {
-  event.preventDefault(); // Prevent the default right-click behavior
-});
+// // Prevent right-click event on the entire document
+// document.addEventListener("contextmenu", function(event) {
+//   event.preventDefault(); // Prevent the default right-click behavior
+// });
+
+document.addEventListener('contextmenu',()=>{
+  event.preventDefault()
+})
 
 </script>
 
