@@ -5,3 +5,9 @@ shallow copy,
 object freeze vs seal, 
 how to check whether the object is empty or not?,
 how to add/remove key-value pair of object, 
+$pop vs $pull, 
+upsert query, 
+
+
+/*Html*/ 
+toggle checkbox by button click - not known, 

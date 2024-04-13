@@ -1,0 +1,27 @@
+<!-- In one line, "toggle" means to switch between two states or options repeatedly. -->
+
+<!DOCTYPE html>
+<html lang="en" prevent="true">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- checkBox -->
+    <input type="checkbox" id="myCheckbox" />
+    <!-- checkbox button -->
+    <button onclick="toggleCheckBox()"  type="checkbox">
+      Click For checkBox
+    </button>
+
+    <script>
+      function toggleCheckBox() {
+        var checkbox = document.getElementById("myCheckbox");
+        console.log(checkbox.checked)
+        checkbox.checked = !checkbox.checked; // Toggle the checkbox state /// assign opposite boolean value
+        console.log(checkbox.checked)
+      }
+    </script>
+  </body>
+</html>

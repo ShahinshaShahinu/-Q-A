@@ -1,4 +1,3 @@
-toggle checkbox by button click - not known, 
 prevent right click of button - not known, 
 event propagation, 
 event delegation, 
@@ -29,8 +28,6 @@ drawbacks of indexing,
 covered query, 
 view, 
 $all vs $in, 
-$pop vs $pull, 
 $lookup, 
-upsert query, 
 query to find the name of highest salaried employee in engineering, 
 query to find the names of employees starting with vowel.

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prevent Right Click on Button</title>
+</head>
+<body >
+
+<!-- Button -->
+<button id="myButton">Click Me (Right Click Disabled)</button>
+
+<script>
+// Get the button element
+var button = document.getElementById("myButton");
+
+// Prevent right-click event on the button
+button.addEventListener("contextmenu", function(event) {
+  event.preventDefault(); // Prevent the default right-click behavior
+});
+
+</script>
+
+</body>
+</html>

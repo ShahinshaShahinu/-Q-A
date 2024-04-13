@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prevent Right Click on Body</title>
+</head>
+<body>
+
+<h1>Right-clicking Disabled</h1>
+
+<script>
+// Prevent right-click event on the body
+document.body.addEventListener("contextmenu", function(event) {
+  event.preventDefault(); // Prevent the default right-click behavior
+});
+
+// Prevent right-click event on the entire document
+document.addEventListener("contextmenu", function(event) {
+  event.preventDefault(); // Prevent the default right-click behavior
+});
+
+</script>
+
+</body>
+</html>
