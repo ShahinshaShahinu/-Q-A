@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Onload Event Example</title>
+</head>
+<body onload="myFunction()">
+
+<h1>Hello, World!</h1>
+
+<p id="p1">
+  <img id="" alt="">
+  <div id="images-container"></div></p>
+
+<script>
+  async function fetchData() {
+    const response = await fetch("https://course-api.com/react-store-products");
+    const data = await response.json();
+    const p1 = document.getElementById("p1");
+    const imagesContainer = document.getElementById("images-container");
+
+    // Clear existing content if needed
+    p1.innerHTML = "";
+    imagesContainer.innerHTML = ""; // Clear the existing image container
+
+    for (let i = 0; i < data.length; i++) {
+      const productName = data[i].name;
+      const productImg = data[i].image;
+      
+      p1.innerHTML += productName + "<br><br>";
+
+      const imgElement = document.createElement("img");
+      imgElement.src = productImg;
+      imagesContainer.appendChild(imgElement);
+    }
+  }
+  fetchData();
+
+
+    function myFunction(){
+        alert('page loading finished')
+    }
+</script>
+
+</body>
+</html>
