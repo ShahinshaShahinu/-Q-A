@@ -188,7 +188,7 @@ class stack {
   }
 }
 let stacks = new stack();
-let string = "mahammad irshad";
+let string = "hello world";
 for (i = 0; i < string.length; i++) {
   stacks.push(string[i]);
 }

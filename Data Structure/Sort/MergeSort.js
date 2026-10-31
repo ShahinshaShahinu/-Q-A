@@ -9,9 +9,7 @@ function mergesort(arr) {
 
   return joinarr(mergesort(firsthalf), mergesort(lasthalf));
 
-  //first mergesort(firsthalf)  this function is working then after that mergesort(lasthalf)  this function is working
-
-  // this is a ricresive function it is calling to itself it is know recurtion //
+// This is a recursive function. It calls itself, and this process is known as recursion.
 }
 
 function joinarr(firsthalf, lasthalf) {

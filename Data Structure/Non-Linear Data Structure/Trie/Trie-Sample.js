@@ -133,5 +133,5 @@ class trie{
     }
 }
 let tries=new trie()
-tries.populateSuffixTrie("irshad")
-console.log(tries.contains("jgd"));
+tries.populateSuffixTrie("hey-hello")
+console.log(tries.contains("bye"));

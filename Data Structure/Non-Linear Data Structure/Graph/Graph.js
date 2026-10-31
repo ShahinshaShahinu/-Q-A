@@ -10,10 +10,10 @@ class Graph {
       this.addVertex(vertex);
     }
     if (!this.graph.has(edge)) {
-      // the value and array created  ..arrayList ..
+
       this.addVertex(edge);
     }
-    //  /The includes() function is a method available for arrays in JavaScript.
+
 
     if (!this.graph.get(vertex).includes(edge)) {
       this.graph.get(vertex).push(edge);
@@ -27,7 +27,7 @@ class Graph {
 
   dfs(start) {
     let visited = new Set();
-    // Set is a built-in object that allows you to store unique values of any type. It represents a collection of distinct elements,
+
 
     let stack = [start];
 

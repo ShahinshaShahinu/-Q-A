@@ -35,6 +35,6 @@ class Trie {
 }
 
 let tries = new Trie();
-tries.insert("irshad");
+tries.insert("butterfly");
 
-console.log(tries.contains("irshad"));
+console.log(tries.contains("butterfly"));

@@ -61,19 +61,16 @@ class Graph {
 
   bfs(start) {
     //beadth first search //
-    // using to Queue mathod  , because Q is  a lenear , forward to traverse ,
     if (!this.graph.has(start)) {
-      return new Set(); // Return an empty set if the start vertex doesn't exist in the graph
+      return new Set();
     }
 
     let queue = [start];
-    //set only taken uniqueue elements//
     let visited = new Set();
     while (queue.length) {
       let current = queue.shift();
       if (visited.has(current)) {
         continue;
-        //  loop and move on to the next iteration.
       }
       visited.add(current);
       for (const edge of this.graph.get(current)) {
@@ -85,7 +82,6 @@ class Graph {
   }
 
   dfs(start) {
-    // depth first search  // using stack method because is depthly search ..
     let visited = new Set();
     if (!this.graph.has(start)) {
       return null;
@@ -107,7 +103,6 @@ class Graph {
 
     return visited;
   }
-  // whar t bsus js
   display() {
     console.log(this.graph);
 
@@ -132,7 +127,7 @@ gr.display();
 gr.deletevertex(3);
 
 gr.display();
-console.log("fffffffff");
+
 console.log(gr.bfs(5));
 
 console.log(gr.dfs(5));

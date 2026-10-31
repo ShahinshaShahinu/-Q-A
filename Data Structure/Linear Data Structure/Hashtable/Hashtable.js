@@ -35,8 +35,8 @@ class Hashtable {
   }
 }
 let newhash = new Hashtable(50);
-newhash.set("name", "irshad");
+newhash.set("name", "john");
 newhash.set("age", "20");
-newhash.set("place", "alike");
+newhash.set("place", "newYork");
 newhash.display();
 console.log(newhash.get("place"));

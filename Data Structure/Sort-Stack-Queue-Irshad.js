@@ -262,7 +262,7 @@ class stack {
 }
 
 let stackarr = new stack();
-let string = "irshad";
+let string = "hey";
 for (i = 0; i < string.length; i++) {
   stackarr.push(string[i]);
 }
